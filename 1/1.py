@@ -1,0 +1,1 @@
+print(max(sum(map(int, elf.split()))for elf in open('1/data1.txt').read().split('\n\n')))

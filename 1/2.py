@@ -1,0 +1,1 @@
+print(sum(sorted(sum(map(int, elf.split('\n')))for elf in open('1/data1.txt').read().split('\n\n'))[-3:]))
